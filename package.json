@@ -1,0 +1,16 @@
+{
+  "name": "x402-validator",
+  "version": "1.0.0",
+  "description": "x402 protocol compliance checker — grades any x402-gated endpoint A–F against the V2 spec",
+  "main": "validate-router.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
